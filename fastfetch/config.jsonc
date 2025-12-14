@@ -1,0 +1,129 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/%USERPROFILE%/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#89dceb",
+      "2": "#f5c2e7",
+      "3": "#b4befe",
+      "4": "#f9e2af",
+      "5": "#a6e3a1",
+      "6": "#fab387",
+      "7": "#eba0ac"
+    },
+    "padding": {
+      "top": 1,
+      "left": 4
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#89b4fa",
+        "at": "#ffffff",
+        "host": "#cba6f7"
+      }
+    },
+    "break",
+    // "separator",
+    {
+      "type": "os",
+      "key": "  OS:",
+      "keyColor": "#89dceb",
+      "format": "{3}"
+    },
+    // "host",
+    {
+      "type": "kernel",
+      "key": "  Kernel:",
+      "keyColor": "#f5c2e7",
+      "format": "{2}"
+    },
+    {
+      "type": "board",
+      "key": "  Motherboard:",
+      "keyColor": "#b4befe",
+      "format": "{name}"
+    },
+    {
+      "type": "datetime",
+      "key": "  Time:",
+      "keyColor": "#f9e2af"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime:",
+      "keyColor": "#a6e3a1"
+    },
+    // "packages",
+    {
+      "type": "shell",
+      "key": "  Shell:",
+      "keyColor": "#fab387"
+    },
+    {
+      "type": "display",
+      "compactType": "original",
+      "key": "  Resolution:",
+      "keyColor": "#cba6f7"
+    },
+    // "de",
+    // "wm",
+    // "wmtheme",
+    // "theme",
+    // "icons",
+    // "font",
+    // "cursor",
+    // "terminal",
+    // "terminalfont",
+    {
+      "type": "cpu",
+      "key": "  CPU:",
+      "keyColor": "#eba0ac"
+    },
+    {
+      "type": "gpu",
+      "key": "  GPU:",
+      "keyColor": "#94e2d5",
+      "format": "{name}"
+    },
+    // "cpuusage",
+    {
+      "type": "memory",
+      "key": "  Memory:",
+      "keyColor": "#f5e0dc"
+    },
+    // "swap",
+    {
+      "type": "disk",
+      "key": "  Disk (C):",
+      "keyColor": "#f2cdcd",
+      "folders": ["C:\\"],
+      "format": "{1} / {2} ({3})"
+    },
+    {
+      "type": "disk",
+      "key": "  Disk (D):",
+      "keyColor": "#f2cdcd",
+      "folders": ["D:\\"],
+      "format": "{1} / {2} ({3})"
+    },
+    "break",
+    // "localip",
+    // "battery",
+    // "poweradapter",
+    // "locale",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    },
+    "break",
+    "break"
+  ]
+}
