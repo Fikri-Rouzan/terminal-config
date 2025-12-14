@@ -7,6 +7,6 @@ Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
-$host.ui.RawUI.WindowTitle = "{{ .HostName }}"
+$host.ui.RawUI.WindowTitle = "Your Custom Title"
 clear -x
 fastfetch
