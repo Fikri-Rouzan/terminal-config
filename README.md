@@ -35,3 +35,19 @@ winget install fastfetch
 git clone https://github.com/Fikri-Rouzan/terminal-config.git
 cd terminal-config
 ```
+
+5. **Move the PowerShell Folder**
+
+```powershell
+Move-Item -Path ".\PowerShell" -Destination "$HOME\Documents\"
+```
+
+6. **Configure Fastfetch**
+
+```powershell
+# Create the .config directory if it doesn't exist
+New-Item -ItemType Directory -Force -Path "$HOME\.config"
+
+# Move the fastfetch folder into the .config directory
+Move-Item -Path ".\fastfetch" -Destination "$HOME\.config\"
+```
