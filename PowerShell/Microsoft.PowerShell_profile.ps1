@@ -1,4 +1,4 @@
-oh-my-posh init pwsh --config "C:\Users\%USERPROFILE%\Documents\PowerShell\Themes\atomic.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$HOME\Documents\PowerShell\Themes\atomic.omp.json" | Invoke-Expression
 
 Import-Module Terminal-Icons
 Import-Module z
