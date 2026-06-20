@@ -25,26 +25,26 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 winget install JanDeDobbeleer.OhMyPosh --source winget
 ```
 
-3. **Install Fastfetch**
+4. **Install Fastfetch**
 
 ```powershell
 winget install fastfetch
 ```
 
-4. **Clone the Repository**
+5. **Clone the Repository**
 
 ```bash
 git clone https://github.com/Fikri-Rouzan/terminal-config.git
 cd terminal-config
 ```
 
-5. **Move the PowerShell Folder**
+6. **Move the PowerShell Folder**
 
 ```powershell
 Move-Item -Path ".\PowerShell" -Destination "$HOME\Documents\"
 ```
 
-6. **Configure Fastfetch**
+7. **Configure Fastfetch**
 
 ```powershell
 # Create the .config directory if it doesn't exist
